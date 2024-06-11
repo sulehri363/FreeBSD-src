@@ -53,7 +53,7 @@ SRCS+=	aesni-sha256-x86_64.S aesni-x86_64.S bsaes-x86_64.S vpaes-x86_64.S
 .elif defined(ASM_arm)
 SRCS+=	aes_cbc.c aes-armv4.S aesv8-armx.S bsaes-armv7.S
 .elif defined(ASM_i386)
-SRCS+=	aes-586.S aesni-x86.S vpaes-x86.S
+SRCS+=	aesni-x86.S vpaes-x86.S
 .elif defined(ASM_powerpc)
 SRCS+=	aes_cbc.c aes_core.c aes-ppc.S vpaes-ppc.S aesp8-ppc.S
 .elif defined(ASM_powerpc64)
